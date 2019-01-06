@@ -13,6 +13,9 @@ return [
     'bootstrap' => ['log'],
     'defaultRoute' => 'site/home',
     'modules' => [
+		'ziyaretci' => [
+            'class' => 'kouosl\ziyaretci\Module',
+        ],
         'site' => [
             'class' => 'kouosl\site\Module'   // here is our v1 modules
         ], 
